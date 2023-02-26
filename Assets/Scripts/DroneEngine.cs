@@ -38,7 +38,7 @@ namespace maxkonrad
         private void RotatePropeller()
         {
             if (!propeller) return;
-            propeller.Rotate(Vector3.up, propSpeed);
+            propeller.Rotate(Vector3.forward, propSpeed);
         }
     }
         #endregion

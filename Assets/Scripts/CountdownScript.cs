@@ -28,7 +28,7 @@ namespace maxkonrad
                 countdownText.text = Mathf.Round(countdownTimer).ToString();
                 if (countdownTimer <= 0)
                 {
-                    countdownText.text = "GO!";
+                    countdownText.text = "";
                     isCountingDown = false;
                 }
             }
